@@ -1,0 +1,52 @@
+﻿using FieldOps.Domain.Core.Events;
+using System;
+using System.Collections.Generic;
+using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
+using System.Text;
+
+namespace FieldOps.Domain.Core.Model
+{
+    public abstract class Entity<TId> where TId : notnull
+    {
+        public TId? Id { get; protected set; }
+        private readonly List<Event<TId>> _domainEvents = new();
+        public IReadOnlyCollection<Event<TId>> DomainEvents => _domainEvents.AsReadOnly();
+
+        public override bool Equals(object? obj)
+        {
+            var compareTo = obj as Entity<TId>;
+
+            if (ReferenceEquals(this, compareTo)) return true;
+            if (ReferenceEquals(null, compareTo)) return false;
+
+            return EqualityComparer<TId?>.Default.Equals(Id, compareTo.Id);
+        }
+        public void ClearDomainEvents()
+            => _domainEvents.Clear();
+
+        public static bool operator ==(Entity<TId> entityA, Entity<TId> entityB)
+        {
+            if (ReferenceEquals(entityA, null) && ReferenceEquals(entityB, null)) return true;
+            if (ReferenceEquals(entityA, null) || ReferenceEquals(entityB, null)) return false;
+
+            return entityA.Equals(entityB);
+        }
+
+        public static bool operator !=(Entity<TId> entityA, Entity<TId> entityB)
+            => !(entityA == entityB);
+
+        public static implicit operator TId(Entity<TId> entity)
+            => entity.Id;
+
+        public override int GetHashCode()
+            => HashCode.Combine(GetType(), Id);
+
+        public override string ToString()
+            => $"{GetType().Name} [Id={Id}]";
+
+        protected void AddDomainEvent(Event<TId> domainEvent)
+            => _domainEvents.Add(domainEvent);
+
+    }
+}
