@@ -1,0 +1,53 @@
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/FieldOps.Domain.Core/FieldOps.Domain.Core.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/FieldOps.Billing/" />
+  <Folder Name="/Services/FieldOps.Billing/1. Presentation/" />
+  <Folder Name="/Services/FieldOps.Billing/2. Application/" />
+  <Folder Name="/Services/FieldOps.Billing/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Billing/4. Infra/" />
+  <Folder Name="/Services/FieldOps.Billing/4. Infra/4-1. Data/" />
+  <Folder Name="/Services/FieldOps.Billing/4. Infra/4-2. Services/" />
+  <Folder Name="/Services/FieldOps.Billing/4. Infra/4-3. Messaging/" />
+  <Folder Name="/Services/FieldOps.Billing/4. Infra/4-4. CrossCutting/" />
+  <Folder Name="/Services/FieldOps.Dispatch/" />
+  <Folder Name="/Services/FieldOps.Dispatch/1. Presentation/" />
+  <Folder Name="/Services/FieldOps.Dispatch/2. Application/" />
+  <Folder Name="/Services/FieldOps.Dispatch/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Dispatch/4. Infra/" />
+  <Folder Name="/Services/FieldOps.Dispatch/4. Infra/4-1. Data/" />
+  <Folder Name="/Services/FieldOps.Dispatch/4. Infra/4-2. Services/" />
+  <Folder Name="/Services/FieldOps.Dispatch/4. Infra/4-3. Messaging/" />
+  <Folder Name="/Services/FieldOps.Dispatch/4. Infra/4-4. CrossCutting/" />
+  <Folder Name="/Services/FieldOps.Inventory/" />
+  <Folder Name="/Services/FieldOps.Inventory/1. Presentation/" />
+  <Folder Name="/Services/FieldOps.Inventory/2. Application/" />
+  <Folder Name="/Services/FieldOps.Inventory/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Inventory/4. Infra/" />
+  <Folder Name="/Services/FieldOps.Inventory/4. Infra/4-1. Data/" />
+  <Folder Name="/Services/FieldOps.Inventory/4. Infra/4-2. Services/" />
+  <Folder Name="/Services/FieldOps.Inventory/4. Infra/4-3. Messaging/" />
+  <Folder Name="/Services/FieldOps.Inventory/4. Infra/4-4. CrossCutting/" />
+  <Folder Name="/Services/FieldOps.Notifications/" />
+  <Folder Name="/Services/FieldOps.Notifications/1. Presentation/" />
+  <Folder Name="/Services/FieldOps.Notifications/2. Application/" />
+  <Folder Name="/Services/FieldOps.Notifications/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Notifications/4. Infra/" />
+  <Folder Name="/Services/FieldOps.Notifications/4. Infra/4-1. Data/" />
+  <Folder Name="/Services/FieldOps.Notifications/4. Infra/4-2. Services/" />
+  <Folder Name="/Services/FieldOps.Notifications/4. Infra/4-3. Messaging/" />
+  <Folder Name="/Services/FieldOps.Notifications/4. Infra/4-4. CrossCutting/" />
+  <Folder Name="/Services/FieldOps.Operations/" />
+  <Folder Name="/Services/FieldOps.Operations/1. Presentation/" />
+  <Folder Name="/Services/FieldOps.Operations/2. Application/" />
+  <Folder Name="/Services/FieldOps.Operations/3. Domain/">
+    <Project Path="src/Services/FieldOps.Operations/FieldOps.Operations.Domain/FieldOps.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Services/FieldOps.Operations/4. Infra/" />
+  <Folder Name="/Services/FieldOps.Operations/4. Infra/4-1. Data/" />
+  <Folder Name="/Services/FieldOps.Operations/4. Infra/4-2. Services/" />
+  <Folder Name="/Services/FieldOps.Operations/4. Infra/4-3. Messaging/" />
+  <Folder Name="/Services/FieldOps.Operations/4. Infra/4-4. CrossCutting/" />
+</Solution>
