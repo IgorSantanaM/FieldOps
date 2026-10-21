@@ -6,7 +6,9 @@
   <Folder Name="/Services/FieldOps.Billing/" />
   <Folder Name="/Services/FieldOps.Billing/1. Presentation/" />
   <Folder Name="/Services/FieldOps.Billing/2. Application/" />
-  <Folder Name="/Services/FieldOps.Billing/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Billing/3. Domain/">
+    <Project Path="src/Services/FieldOps.Billing/FieldOps.Billing.Domain/FieldOps.Billing.Domain.csproj" />
+  </Folder>
   <Folder Name="/Services/FieldOps.Billing/4. Infra/" />
   <Folder Name="/Services/FieldOps.Billing/4. Infra/4-1. Data/" />
   <Folder Name="/Services/FieldOps.Billing/4. Infra/4-2. Services/" />
@@ -15,7 +17,9 @@
   <Folder Name="/Services/FieldOps.Dispatch/" />
   <Folder Name="/Services/FieldOps.Dispatch/1. Presentation/" />
   <Folder Name="/Services/FieldOps.Dispatch/2. Application/" />
-  <Folder Name="/Services/FieldOps.Dispatch/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Dispatch/3. Domain/">
+    <Project Path="src/Services/FieldOps.Dispatch/FieldOps.Dispatch.Domain/FieldOps.Dispatch.Domain.csproj" />
+  </Folder>
   <Folder Name="/Services/FieldOps.Dispatch/4. Infra/" />
   <Folder Name="/Services/FieldOps.Dispatch/4. Infra/4-1. Data/" />
   <Folder Name="/Services/FieldOps.Dispatch/4. Infra/4-2. Services/" />
@@ -24,7 +28,9 @@
   <Folder Name="/Services/FieldOps.Inventory/" />
   <Folder Name="/Services/FieldOps.Inventory/1. Presentation/" />
   <Folder Name="/Services/FieldOps.Inventory/2. Application/" />
-  <Folder Name="/Services/FieldOps.Inventory/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Inventory/3. Domain/">
+    <Project Path="src/Services/FieldOps.Inventory/FieldOps.Inventory.Domain/FieldOps.Inventory.Domain.csproj" />
+  </Folder>
   <Folder Name="/Services/FieldOps.Inventory/4. Infra/" />
   <Folder Name="/Services/FieldOps.Inventory/4. Infra/4-1. Data/" />
   <Folder Name="/Services/FieldOps.Inventory/4. Infra/4-2. Services/" />
@@ -33,7 +39,9 @@
   <Folder Name="/Services/FieldOps.Notifications/" />
   <Folder Name="/Services/FieldOps.Notifications/1. Presentation/" />
   <Folder Name="/Services/FieldOps.Notifications/2. Application/" />
-  <Folder Name="/Services/FieldOps.Notifications/3. Domain/" />
+  <Folder Name="/Services/FieldOps.Notifications/3. Domain/">
+    <Project Path="src/Services/FieldOps.Notifications/FieldOps.Notifications.Domain/FieldOps.Notifications.Domain.csproj" />
+  </Folder>
   <Folder Name="/Services/FieldOps.Notifications/4. Infra/" />
   <Folder Name="/Services/FieldOps.Notifications/4. Infra/4-1. Data/" />
   <Folder Name="/Services/FieldOps.Notifications/4. Infra/4-2. Services/" />
